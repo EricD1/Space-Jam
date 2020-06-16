@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Space Jam</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+
+<body>
+
+<!-- Carousel Header-->
+	<div id="carousel1" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100" src="assets/img/Space%20Jam%20Logo.jpg" alt="First slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="assets/img/Space%20Jam%202%20Logo.jpg" alt="Second slide">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		</a>
+		<a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		</a>
+	</div>
+
+    <div class="btop">
+
+<!-- Buttons -->
+    <div class="container text-center p-3">
+        <button style=background-color:#007bff; id="btntrailer" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1"><i class="fa fa-play-circle"></i> Trailer</button>
+        <button type="button" class="btn btn-primary"><a href="https://www.netflix.com/title/986399" target="_blank"><i class="fa fa-play-circle"></i> Netflix</a></button>
+        <button type="button" class="btn btn-primary"><a href="https://www.amazon.com/Space-Jam-Billy-West/dp/B000M0QMM8" target="_blank"><i class="fa fa-play-circle"></i> Amazon</a></button>
+        <button type="button" class="btn btn-primary"><a href="https://www.youtube.com/watch?v=J2j06Dj6Z7s" target="_blank"><i class="fa fa-play-circle"></i> YouTube</a></button>
+        <button type="button" class="btn btn-primary"><a href="https://open.spotify.com/album/5qdsq5YryqAynT65vpaumI" target="_blank"><i class="fa fa-headphones"></i> Listen</a></button>
+        <button id="btnshop" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2"><i class="fa fa-shopping-cart" style="font-size:24px"></i> Shop</button>
+    </div>
+
+<!-- Carousel Body -->
+    <div id="carousel2" class="container carousel slide p-0" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100" src="assets/img/Michael%20Jordan.png" alt="First slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="assets/img/Monstars.jpeg" alt="Second slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="assets/img/Bugs%20Bunny.jpg" alt="Third slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="assets/img/Huddle.jpg" alt="Fourth slide">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		</a>
+		<a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		</a>
+		<a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		</a>
+		<a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		</a>
+	</div>
+
+    </div>
+
+<!-- Nav -->
+    <div class="container2 text-center p-2">
+        <ul class="nav nav-pills justify-content-center mb-1" id="nav-pill" role="tablist">
+            <li class="nav-item">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Behind the Jam</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">The Squad</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">The Tunes</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" id="pills-messages-tab" data-toggle="pill" href="#pills-messages" role="tab" aria-controls="pills-messages" aria-selected="false">Jam Central</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" id="pills-settings-tab" data-toggle="pill" href="#pills-settings" role="tab" aria-controls="pills-settings" aria-selected="false">Space Jam 2</a>
+            </li>
+        </ul>
+        <div class="tab-content mb-1" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <p>Your hub for all things classic Space Jam. Start by going behind the scenes of the most high-tech, high-flying films of its time. See throwback sketches, green screen footage and plenty more:</p>
+                <p><a href="https://www.spacejam.com/cmp/behind/sketchesframes.html" target="_blank"><img class="imgshad" src="assets/img/Behind%20the%20Jam.jpg"></a></p>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <p>The cast, the characters, the 'Tunes! Learn how Michael Jordan got the role, learn how the Monstars managed to make Tazmanian Devil faint, and test your knowledge with our Trivia Quiz:</p>
+                <p><a href="https://www.spacejam.com/cmp/lineup/castbiosframes.html" target="_blank"><img class="imgshad" src="assets/img/The%20Cast.jpg"></a></p>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <p>When you've got the world's greatest basketball superstars facing off against aliens, you can't skimp on the jams. Learn how the acclaimed Space Jam soundtrack came together:</p>
+                <p><a href="https://www.spacejam.com/cmp/tunes/soundtrackframes.html" target="_blank"><img class="imgshad" src="assets/img/The%20Soundtrack.jpg"></a></p>
+            </div>
+            <div class="tab-pane fade" id="pills-messages" role="tabpanel" aria-labelledby="pills-messages-tab">
+                <p>From the best seats in the house, peruse the production history, read production notes, meet the filmmakers and browse more exclusive photographs of your favorite characters:</p>
+                <p><a href="https://www.spacejam.com/cmp/jamcentral/prodnotesframes.html" target="_blank"><img class="imgshad" src="assets/img/Jam%20Central.jpg"></a></p>
+            </div>
+            <div class="tab-pane fade" id="pills-settings" role="tabpanel" aria-labelledby="pills-settings-tab">
+                <p></p>
+                <p><img style=width:450px;margin:10px; src="assets/img/Space%20Jam%202%20Logo.png"></p>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal -->
+	<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+                    <p id="mp"><iframe width="100%" height="315" src="https://www.youtube.com/embed/oKNy-MWjkcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+				</div>
+			</div>
+		</div>
+    </div>
+    
+	<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">SHOP</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+                    <a href="https://www.wbshop.com/" target="_blank"> <img id="mimg" src="assets/img/Warner Bros. Shop.jpeg" class="img-fluid"></a>
+                    <p id="mp">Watch and shop all of your Warner Bros. favs, including DC Comics, Harry Potter and more. <a href="https://www.wbshop.com/" target="_blank" class="btn btn-primary">Shop Warner Bros.</a></p>
+                    <a href="https://www.spacejam.com/cmp/souvenirs/souvenirsframes.html" target="_blank"> <img style=width:100%; id="mimg" src="assets/img/Space%20Jam%20Shop.jpg" class="img-fluid"></a>
+                    <p id="mp">Collect classic Space Jam souvenirs and graphics, including posters, icons, sound clips and more. <a href="https://www.spacejam.com/cmp/souvenirs/souvenirsframes.html" target="_blank" class="btn btn-primary">Space Jam Souvenirs</a></p>
+				</div>
+			</div>
+		</div>
+    </div>
+
+<!-- JS -->
+	<script src="assets/js/jquery-3.5.0.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script>
+		$('#btntrailer').click(function() {
+			console.log('clicked btntrailer');
+		});
+
+		$('#btnshop').click(function() {
+			console.log('clicked btnshop');
+		});
+	</script>
+
+</body>
+
+<footer class="text-center d-flex flex-column">
+    &copy; 1996 Warner Bros.
+</footer>
+
+</html>
